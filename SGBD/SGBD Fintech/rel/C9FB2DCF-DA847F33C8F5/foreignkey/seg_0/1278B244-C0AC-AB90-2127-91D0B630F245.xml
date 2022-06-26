@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1278B244-C0AC-AB90-2127-91D0B630F245" containerWithKeyObject="88A816DA-826D-3146-68C8-13CE908BBB84" localFKIndex="11333687-31B6-8091-44B8-AEA63B1FC9B3" name="T_LOGRADOURO_T_CIDADE_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>5039CB33-A458-2E77-5987-393ECDE25ACE</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<referredTableLongName>T_CIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D1835C0-C4B5-0933-E884-10BCF06CA6B1</referredTableID>
+<keyObject>9E6B6CBA-FF1C-44D3-255C-2252EAC677AF</keyObject>
+<referredKeyID>9E6B6CBA-FF1C-44D3-255C-2252EAC677AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_cidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

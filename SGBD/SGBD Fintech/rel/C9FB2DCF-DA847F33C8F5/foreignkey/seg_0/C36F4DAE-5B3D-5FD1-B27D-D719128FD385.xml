@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C36F4DAE-5B3D-5FD1-B27D-D719128FD385" containerWithKeyObject="AB25BC0E-0CF1-29CF-6559-E412E3A6FF3D" localFKIndex="31FDA897-3460-69DB-020D-ED8BB6CE3ED2" name="T_USUARIO_LOGRADOURO_T_USUARIO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>6D54809D-9CBD-D5DB-738A-17B1CFED03FA</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<referredTableLongName>T_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12DE47E3-AA5A-A0B1-1FD9-F9A81547FAE2</referredTableID>
+<keyObject>E5C07785-5389-4C34-14B6-174EF5E25AC5</keyObject>
+<referredKeyID>E5C07785-5389-4C34-14B6-174EF5E25AC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ds_email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

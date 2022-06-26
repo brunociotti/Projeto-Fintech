@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BEC098CA-20D0-C749-344A-E3BBECE8E6E3" name="T_USUARIO">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:29:22 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_email" id="1CCB354E-737B-2C8F-13EB-14D12CE566B8">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:29:38 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="2858EAD1-50CD-1599-5D40-30723770FDFC">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:29:56 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="D221CE61-14A6-786F-6DEF-49F32E970ABA">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:30:10 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7ABFACCA-DCC3-6672-57FA-7E96C1671A29" name="T_CADASTRO PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:30:13 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CCB354E-737B-2C8F-13EB-14D12CE566B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

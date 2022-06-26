@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D1835C0-C4B5-0933-E884-10BCF06CA6B1" name="T_CIDADE">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>5544FD3F-F099-B187-E4E0-CE6F72F5852B</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cidade" id="18084D9D-CADC-FE4C-FA1E-0A12E9A37A23">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>EF0FCA77-1BD0-9ACA-D6BD-30E85D394D5A</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cidade" id="C11624F0-B620-D2E3-431F-7787B61FD1A5">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>1CC66EFD-4DDE-B57A-605E-F2D993EC6AE3</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cep" id="1A1ACB46-2082-B6DA-30C1-2D8AC2B26375">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>CC59FB19-9ED3-1DB8-58AE-83F76DFCB6D7</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E6B6CBA-FF1C-44D3-255C-2252EAC677AF" name="T_CIDADE_PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>019F259A-FA21-D704-A87D-FC04C4F942AA</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18084D9D-CADC-FE4C-FA1E-0A12E9A37A23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

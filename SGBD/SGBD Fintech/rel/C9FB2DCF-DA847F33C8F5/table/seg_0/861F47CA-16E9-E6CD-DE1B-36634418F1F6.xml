@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="861F47CA-16E9-E6CD-DE1B-36634418F1F6" name="T_NUMERO_LOGRADOURO">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>05FE0809-5AA5-CB60-901C-82AB3CDF43D1</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_numero" id="5166AB98-CA8C-E518-E4EF-78EDDFD25F75">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>BEF0F30F-06B7-FDF2-2868-98D1E7A01D94</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_numero" id="3051DC8D-94ED-094F-F42B-32B8F8E6F261">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>7C04C1F5-EC76-139E-49B9-D6CB23DCA393</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5469DCA6-BD5D-F543-08E7-D37656270426" name="T_NUMERO_LOGRADOURO_PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>4A8B3336-44BE-E385-E025-E0030D0F5AEE</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5166AB98-CA8C-E518-E4EF-78EDDFD25F75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

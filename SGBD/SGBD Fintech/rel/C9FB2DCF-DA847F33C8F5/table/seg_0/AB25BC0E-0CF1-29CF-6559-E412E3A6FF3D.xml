@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB25BC0E-0CF1-29CF-6559-E412E3A6FF3D" name="T_USUARIO_LOGRADOURO">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>351AF6FE-AD9A-5C26-B85B-7068EE1F2C48</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USUARIO_ds_email" id="FB25418F-A20D-B908-EE38-E17B9575DEA7">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>B3089076-A573-B134-E045-1CFA01AA0268</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C36F4DAE-5B3D-5FD1-B27D-D719128FD385" referredColumn="2B417714-6818-BD4C-7AAE-BD577606CDAC"/>
+</associations>
+</Column>
+<Column name="T_LOGRADOURO_cd_logradouro" id="10C0092A-8477-36AF-7012-38A178FF1292">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>5D7CC538-6787-2CF5-CAA0-042980B59A02</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="741F86A7-A363-953A-B146-F968B90839FC" referredColumn="667EF2C6-E3B7-1E70-0F1A-79350E82D6C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4096A58-AD3D-D403-5AC1-AF6DA5638450" name="T_USUARIO_LOGRADOURO_PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>F825ED57-2ECF-9B71-0A92-09471C99ECDD</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB25418F-A20D-B908-EE38-E17B9575DEA7"/>
+<colUsage columnID="10C0092A-8477-36AF-7012-38A178FF1292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C765FB3C-8DF0-56F7-68ED-7CA4334D6AAD" name="T_USUARIO_LOGRADOURO_T_LOGRADOURO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>81BA41C9-69B8-D1E8-EC93-B960FBCF112C</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10C0092A-8477-36AF-7012-38A178FF1292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31FDA897-3460-69DB-020D-ED8BB6CE3ED2" name="T_USUARIO_LOGRADOURO_T_USUARIO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>6D54809D-9CBD-D5DB-738A-17B1CFED03FA</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB25418F-A20D-B908-EE38-E17B9575DEA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

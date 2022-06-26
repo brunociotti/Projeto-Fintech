@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DD68C16-5AF0-377C-DB19-13B975391C41" name="T_LOGRADOURO">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:30:38 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_logradouro" id="45940639-F6CA-0CA4-15A4-7E391D079741">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:32:21 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cidade" id="9A474165-2400-A5FE-CFEC-E6C8843966B6">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-21 03:07:19 UTC</createdTime>
+<generatorID>5039CB33-A458-2E77-5987-393ECDE25ACE</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<referedAttribute>EF0FCA77-1BD0-9ACA-D6BD-30E85D394D5A</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="3B23CCAF-D82A-6E90-2115-5497FF676D90">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-21 03:09:29 UTC</createdTime>
+<generatorID>2C45828A-D21C-F77C-CB60-7761BF3826D6</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<referedAttribute>516878BA-D0AB-5184-2BB0-975F13CDB15E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_numero" id="86368BF4-131A-4A23-FEF0-CD7DE157C0ED">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-21 03:11:31 UTC</createdTime>
+<generatorID>55BEC611-A0EB-6781-2541-8AB5D7B2DDCE</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<referedAttribute>BEF0F30F-06B7-FDF2-2868-98D1E7A01D94</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="29485208-2539-8C89-80E9-2196B231FB64">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-21 03:12:56 UTC</createdTime>
+<generatorID>F63A2546-0D59-AAD1-598C-E446115F2D23</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<referedAttribute>F8309B80-CA93-D598-774D-AE9E160ACDE2</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0ED85EB1-0FC4-4BEA-712E-137C25ADE645" name="T_LOGRADOURO PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:32:36 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45940639-F6CA-0CA4-15A4-7E391D079741</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

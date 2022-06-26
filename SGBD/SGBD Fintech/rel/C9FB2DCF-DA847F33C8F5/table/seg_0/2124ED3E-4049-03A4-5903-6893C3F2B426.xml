@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2124ED3E-4049-03A4-5903-6893C3F2B426" name="T_TRANSACAO_USUARIO">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>B16E92CB-5618-0750-DC50-E1B33E958843</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_transacao_usuario" id="2841AE9C-2CD8-E69D-F6D9-1FF11EE5AAA5">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>D027B342-8ACB-B0FB-3B09-910AF00850D7</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TIPO_TRANSACAO_cd_tipo_transacao" id="07477768-5741-6520-B0E0-FB20891F3FA2">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>08A757D0-E56A-6EC0-F952-A05226D9E3EC</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1281954-1438-64E7-0C4C-EEF8216B57AF" referredColumn="8B688464-BDF7-E107-770B-FC539E83B9E6"/>
+</associations>
+</Column>
+<Column name="T_BENEFICIARIO_cd_beneficiario" id="5315D243-4E0F-7B0D-5371-B52C0A598A56">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>6A8FBC00-CB75-339E-7DB7-116DD2D3B2B8</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7F7C08A-5FE8-51CE-3400-CC77E9AC603A" referredColumn="A6D21ACC-7640-444B-74C6-05D6DBD84003"/>
+</associations>
+</Column>
+<Column name="T_USUARIO_ds_email" id="C51DEF88-E48F-F463-16AB-6107623D65A0">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>A528ECA9-4C85-E53B-FE68-36388A2E6FBB</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79D10B6E-F81A-C762-3363-C2C880216890" referredColumn="2B417714-6818-BD4C-7AAE-BD577606CDAC"/>
+</associations>
+</Column>
+<Column name="nr_quantidade" id="78875086-8762-8442-CC52-C703C2CA34D3">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>EA54BA94-3584-2FD2-472E-AEB039DD1DF3</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_data" id="489A1CF6-7F54-894F-91C9-49E069F9F1F4">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>5BE91430-C39E-983E-8278-93C4626A067B</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_mes" id="89DBD726-804D-6680-A6BA-AE042A6EB6A8">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>76F19F84-7E09-1AFF-78AA-D3E471416111</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_ano" id="3D894CEE-3285-D793-BA7F-7B642BC5DB75">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>1AAE7F2B-2F2A-75B7-9AEA-CC45BA95F844</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_horario" id="32E0D189-4746-BD05-E01B-A9B8761E9C9B">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>80852A4C-6451-22DF-DE58-EC8431A79DDE</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31230592-984D-1A80-AB65-5E49841F1751" name="T_TRANSACAO_USUARIO_PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>4535ED6B-3AB7-4247-5C54-74F12AAF992F</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2841AE9C-2CD8-E69D-F6D9-1FF11EE5AAA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1386742-F8D1-DD04-4A9E-2E379EC3C605" name="T_TRANSACAO_USUARIO_T_USUARIO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>B68DF53B-7ECA-DC7F-AAD6-AAB7CEF9EB33</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C51DEF88-E48F-F463-16AB-6107623D65A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26FF4E07-BC85-E7A9-0454-0D28AA43B0D5" name="T_TRANSACAO_USUARIO_T_BENEFICIARIO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>B4D93584-A36D-3906-2E82-163809BD064A</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5315D243-4E0F-7B0D-5371-B52C0A598A56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79F99C97-CDA9-AC6F-AFC3-B78E20043C1D" name="T_TRANSACAO_USUARIO_T_TIPO_TRANSACAO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>027F31E8-18BE-1940-3A8D-8EC6C784B039</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07477768-5741-6520-B0E0-FB20891F3FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

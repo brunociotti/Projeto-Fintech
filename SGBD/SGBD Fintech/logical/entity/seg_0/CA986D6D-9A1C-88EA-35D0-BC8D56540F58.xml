@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA986D6D-9A1C-88EA-35D0-BC8D56540F58" name="T_EMPRESA">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 18:13:32 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_empresa" id="D1AE0E82-2808-159E-CF1A-506FA86964A1">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 18:13:48 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="49E18F8D-5583-21AD-A53F-B13E33857BD4">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-21 03:01:18 UTC</createdTime>
+<generatorID>1D1E2813-C73F-DDDD-B686-21347ABA5168</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<referedAttribute>1CCB354E-737B-2C8F-13EB-14D12CE566B8</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76B2CD9D-4FD9-EBC0-183D-22E9AEE6911B" name="T_EMPRESA PK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 18:13:56 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1AE0E82-2808-159E-CF1A-506FA86964A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6C990675-9896-1A1F-719A-63D5FE4DA579" containerWithKeyObject="D579200F-23F0-2DF7-8B93-3376403E56F5" localFKIndex="664C92D0-AC7D-41BF-ECD3-70C27338FFB4" name="T_TRANSACAO_EMPRESA_T_DETALHE_TRANSACAO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>FD2C9AA3-5F07-033A-7568-D3F2C9AA74E0</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<referredTableLongName>T_DETALHE_TRANSACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38E8814D-63CF-B43A-7BAA-766243B4AFE5</referredTableID>
+<keyObject>AA6156FF-F39D-E2F8-FA59-C8A52FC04995</keyObject>
+<referredKeyID>AA6156FF-F39D-E2F8-FA59-C8A52FC04995</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ds_tipo_transacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="532445DD-3020-2447-4DB4-E9718EFDD44A" containerWithKeyObject="24ED5B49-C5D5-FA8D-A95A-145299C57B95" localFKIndex="4676E488-1C99-A4F4-EA7E-231297344DA3" name="T_CRYPTO_T_TIPO_TRANSACAO_CRYPTO_FK">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-22 17:53:42 UTC</createdTime>
+<generatorID>485713ED-EC96-FF43-9DE2-A7BFA899A44A</generatorID>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<referredTableLongName>T_TIPO_TRANSACAO_CRYPTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>253E23FC-4E48-1617-7DED-4E16BEE1ECF0</referredTableID>
+<keyObject>322062DE-29CC-C668-096A-6C2120259A20</keyObject>
+<referredKeyID>322062DE-29CC-C668-096A-6C2120259A20</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_transacao_crypto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="abrigar" directorySegmentName="seg_0" id="81BA41C9-69B8-D1E8-EC93-B960FBCF112C">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:34:04 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<engineerTo>
+<item key="C9FB2DCF-51FD-06C4-7D9A-DA847F33C8F5" value="true"/>
+</engineerTo>
+<sourcePk>0ED85EB1-0FC4-4BEA-712E-137C25ADE645</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1DD68C16-5AF0-377C-DB19-13B975391C41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>351AF6FE-AD9A-5C26-B85B-7068EE1F2C48</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

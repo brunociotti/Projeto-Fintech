@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SGBD Fintech" id="F11F68D3-3A08-F6B7-92AA-125550072518" version="3.5">
+<createdBy>Bruno</createdBy>
+<createdTime>2022-05-18 17:27:51 UTC</createdTime>
+<ownerDesignName>SGBD Fintech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F11F68D3-3A08-F6B7-92AA-125550072518</designId>
+</OSDM_Design>
